@@ -10,20 +10,7 @@
                   <img src="{{asset('img/slide_10.jpg')}}" alt="Capacitación" />
               </a>
               <!--/ítem-->
-              <!--ítem-->
-          
-              <a title="Agenda Horas"  href=" ">
-                  <img src="{{asset('img/woman.jpg')}}" alt="Agenda Horas" />
-              </a>
-              
-              <!--/ítem-->
-              <!--ítem-->
-              
-              <a title="Tienda Virtual">
-                  <img src="{{asset('img/slide_5.jpg')}}" alt="Tienda Virtual" />
-              </a>
-              
-              <!--/ítem-->
+               
 
               
           </div>
