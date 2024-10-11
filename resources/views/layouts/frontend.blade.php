@@ -89,8 +89,7 @@
                   <li><a href="{{route('home_index')}}" title="Inicio">Inicio</a></li>
                   <li ><a href="{{route('rutas_sobre_nosotros')}}" title="Nosotros">Nosotros</a></li>
                   <li><a href="{{route('rutas_servicios')}}" title="Servicios">Servicios</a></li>
-                  <li ><a href="https://www.cesarcancino.com/cursos-en-udemy" target="_blank" title="Capacitación">Capacitación</a></li>
-                  <li><a href="{{route('home_index')}}" title="Contacto">Contacto</a></li>
+                  <li ><a href="https://www.cesarcancino.com/cursos-en-udemy" target="_blank" title="Capacitación">Capacitación</a></li> 
               </ul>
               <!-- /Main navigation -->
 
@@ -114,7 +113,7 @@
       <!-- Container -->
       <div class="container">
           <p>Teléfono: +56953240842 | E-Mail : info@tamila.cl </p>
-          <p>&copy; Todos los derechos reservados 2019 - {{date('Y')}} | Desarrollado por <a href="http://www.tamila.cl" title="Tamila.cl" target="_blank">Tamila.cl</a></p>
+          <p>&copy; Todos los derechos reservados 2019 - {{date('Y')}} | Desarrollado por <a href="http://www.tamila.cl" title="Tamila.cl" target="_blank">Tamila.cl</a> | <a href="{{route('rutas_terminos_y_condiciones')}}" title="Términos y condiciones">Términos y condiciones</a> | <a href="{{route('rutas_politica_de_privacidad')}}" title="Política de privacidad">Política de privacidad</a> </p>
           <p class="footer-redes">
               <ul class="list-inline">
                   <li><a href="https://web.facebook.com/tamilaagencia/" title="Síguenos en Facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>

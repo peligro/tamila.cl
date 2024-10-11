@@ -1,37 +1,37 @@
-@extends('../layouts.errors')
+@extends('../layouts.frontend')
 @section('title','404 Recurso no encontrado')
 @section('content')
-    <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Error 404
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="{{route('index_index')}}"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Error 404</li>
-      </ol>
-    </section>
+<div id="about" class="section md-padding">
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="error-page">
-        <h2 class="headline text-yellow"> 404</h2>
+  <!-- Container -->
+  <div class="container">
 
-        <div class="error-content">
-          <h3><i class="fa fa-warning text-yellow"></i> Recurso no encontrado</h3>
+      <!-- Row -->
+      <div class="row">
 
-          <p>
-           Esta sección no está disponible por ahora
+          <!-- Section header -->
+          <div class="section-header text-center">
+              <h2 class="title">Error 404</h2>
+          </div>
+          <!-- /Section header -->
+          <p style="text-align: justify; margin: 0px 100px 0px 100px;">
+              Recurso no encontrado
           </p>
-          <p><a href="{{route('index_index')}}" title="Volver a la página de inicio">&larr; Volver a la página de inicio</a></p>
-
          
-        </div>
-        <!-- /.error-content -->
+
+          
+
+          
       </div>
-      <!-- /.error-page -->
-    </section>
-    <!-- /.content -->
+      <!-- /Row -->
+      <div class="row">
+          <div class="col-lg-9 text-center">
+              <img src="{{asset('img/404.png')}}" alt="Recurso no encontrado" title="Recurso no encontrado" />
+          </div>
+      </div>
   </div>
+  <!-- /Container -->
+
+</div>
+<!-- /About -->
 @endsection

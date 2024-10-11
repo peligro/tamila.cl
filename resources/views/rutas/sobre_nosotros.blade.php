@@ -1,5 +1,5 @@
 @extends('../layouts.frontend')
-@section('title','Home')
+@section('title','Sobre nosotros')
 @section('content')
 <div id="about" class="section md-padding">
 

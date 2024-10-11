@@ -14,4 +14,12 @@ class RutasController extends Controller
     {
         return view("rutas.servicios");
     }
+    public function rutas_terminos_y_condiciones()
+    {
+        return view("rutas.terminos_y_condiciones");
+    }
+    public function rutas_politica_de_privacidad()
+    {
+        return view("rutas.politica_de_privacidad");
+    }
 }
